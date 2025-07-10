@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I.E.D Talento Tech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body_formulario">
+
+    <header id="et_header">
+        <div class="logo_container">
+            <a href="index.html">
+                <img class="logo" src="img/logo.jpeg">
+            </a>
+        </div>
+
+        <div id="et_top_navigation">
+            <nav id="et_top_navigation_menu">
+                <ul class="top_menu">
+                    <li><a class="inicio" href="index.html">Inicio</a></li>
+                    <li><a class="portal_virtual" href="portalvirtual.html">Portal Virtual</a></li>
+                    <li><a class="acceder" href="formulario.html">Acceder</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container_formulario">
+        <div class="logo_formulario">
+            <img src="img/logo.jpeg" alt="Logo">
+        </div>
+        <h1>Iniciar sesión</h1>
+
+        
+      <form id="formularioLogin" action="">
+  		<label for="usuario">Nombre de usuario:</label>
+  		<input type="text" name="usuario" id="usuario" required>
+  		<span id="errorUsuario" class="error"></span> 
+
+ 	 <br><br>
+
+  		<label for="contrasena">Contraseña:</label>
+  		<input type="password" name="contrasena" id="contrasena" required>
+  		<span id="errorContrasena" class="error"></span> 
+
+  	<br><br>
+
+  <input type="submit" value="Acceder">
+
+ 	 <br><br>
+
+ 		 <p>¿Aún no se ha registrado? <a href="registro.html">Cree una cuenta</a></p>
+</form>
+    </div>
+
+<div id="mensajeIntentos" style="margin-top: 20px;"></div>
+
+    <footer>
+        <div class="footer_content">
+            <div class="div_logo">
+                <img src="img/logo.jpeg" alt="Logo">
+            </div>
+            <div class="footer_div_ul">
+                <ul class="footer_ul">
+                    <li><a class="inicio" href="index.html">Inicio</a></li>
+                    <li><a class="portal_virtual" href="portalvirtual.html">Portal Virtual</a></li>
+                    <li><a href="formulario.html">Acceder</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2025 I.E.D Talento Tech. Todos los derechos reservados.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

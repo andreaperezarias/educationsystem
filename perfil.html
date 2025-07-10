@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orientación Vocacional</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+
+        <div class="logo_container">
+            <a href="index.html">
+                <img class="logo" src="img/logo.jpeg">
+            </a>
+        </div>
+
+        <div id="et_top_navigation">
+            <nav id="et_top_navigation_menu">
+                <ul class="top_menu">
+                    <li><a class="inicio" href="index.html">Inicio</a></li>
+                    <li><a class="portal_virtual" href="portalvirtual.html">Portal Virtual</a></li>
+                    <li><a class="acceder" href="formulario.html">Acceder</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+  </header>
+
+  <div class="titul">
+    <h1>Explora tu Perfil Vocacional</h1>
+    <p>Institución Educativa Talento TECH | Módulo de Apoyo al Estudiante</p>
+    <p>En Talento TECH nos preocupamos por el futuro de nuestros estudiantes. Por ello, te podremos dar una orientación que puedes considerar para continuar con tus estudios al indicarnos qué area de interés te atrae. ¡Esperamos te sirva de ayuda! </p>
+
+  </div>
+
+    <section class="formulario">
+    <label for="edad">¿Cuál es tu edad?</label>
+    <input type="number" id="edad" placeholder="Edad" required>
+
+    <label for="interes">¿Qué área te interesa más?</label>
+    <select id="interes">
+      <option value="ciencias">Ciencias Naturales y Salud</option>
+      <option value="arte">Arte y Comunicación</option>
+      <option value="tecnologia">Tecnología e Ingeniería</option>
+      <option value="sociales">Ciencias Sociales y Educación</option>
+    </select>
+
+    <button onclick="evaluarPerfil()">Evaluar Perfil</button>
+  </section>
+
+  <section id="resultados"></section>
+
+  <footer>
+    <div class="footer_content">
+            <div class="div_logo">
+                <img src="img/logo.jpeg" alt="Logo">
+            </div>
+            <div class="footer_div_ul">
+                <ul class="footer_ul">
+                    <li><a class="inicio" href="index.html">Inicio</a></li>
+                    <li><a class="portal_virtual" href="portalvirtual.html">Portal Virtual</a></li>
+                    <li><a href="formulario.html">Acceder</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2025 I.E.D Talento Tech. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="logica.js"></script>
+</body>
+</html>

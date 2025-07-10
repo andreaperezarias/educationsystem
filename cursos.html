@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I.E.D Talento Tech</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="cursos.js" defer></script>
+</head>
+<body class="body_formulario">
+
+        <header id="et_header">
+    <div class="logo_container">
+        <a href="index.html">
+            <img class="logo" src="img/logo.jpeg">
+        </a>
+    </div>
+    
+    <div id="et_top_navigation">
+        <nav id="et_top_navigation_menu">
+            <ul class="top_menu">
+                <li><a class="inicio" href="index.html">Inicio</a></li>
+                  <li><a class="portal_virtual" href="portalvirtual.html">Portal Virtual</a></li>
+                    <li><a class="acceder" href="formulario.html">Acceder</a></li>
+                    </ul>
+                    </nav>
+    </div>
+    </header>
+    <div class="container_formulario">
+ <h1>I.E.D TALENTO TECH - INNOVACIÓN EDUCATIVA DIGITAL</h1>
+ <h2>Cotización de Cursos Ofertados</h2>
+
+    <label for="curso">Seleccione el curso</label>
+     <Select id="curso">
+        <option value="" disabled selected>Seleccione</option>
+        <option value="100000" id="fund">Fundamentos de Informática y Manejo del PC</option>
+        <option value="200000" id="intro">Introducción a la Programación</option>
+    </Select>
+
+    <label for="modalidad">Ingrese la modalidad</label>
+     <Select id="modalidad">
+        <option value="" disabled selected>Seleccione</option>
+        <option value="50000" id="virt">Virtual</option>
+        <option value="100000" id="pres">Presencial</option>
+    </Select>
+
+    <label for="horario">Horario del Curso</label>
+     <Select id="horario">
+        <option value="" disabled selected>Seleccione</option>
+        <option value="20000" id="Mañ">Mañana</option>
+        <option value="40000" id="tar">Tarde</option>
+    </Select>
+    <button onclick="calcularCursos()">Cotizar</button>
+
+    <div id="resultado">
+
+    </div>
+</div>
+
+
+<footer>
+  <div class="footer_content">
+    <div class="div_logo">
+      <img src="img/logo.jpeg" alt="Logo">
+    </div>
+    <div class="footer_div_ul">
+      <ul class="footer_ul">
+        <li><a class="inicio" href="index.html">Inicio</a></li>
+        <li><a class="portal_virtual" href="portalvirtual.html">Portal Virtual</a></li>
+        <li><a href="formulario.html">Acceder</a></li>
+      </ul>
+    </div> 
+  </div>
+  <p>&copy; 2025 I.E.D Talento Tech. Todos los derechos reservados.</p>
+</footer>
+</body>
+
+</html>
